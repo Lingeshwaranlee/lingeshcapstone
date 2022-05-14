@@ -20,11 +20,9 @@ export function Mockinterview() {
   return (
     <div>
       <div className="top-container d-flex mb-4">
-        <h2 className="stat"style={{paddingTop:'0px'}}>Mock Interview</h2>
-        <Button variant="contained" onClick={() => history.push("/createuser")} style={{backgroundColor:" #4e73df",marginLeft:"44%"}}>Update Status</Button>
-        
-      </div>
-
+        <h3 style={{textAlign:"center",paddingLeft:"43%"}}>Mock Interview</h3>
+        </div>
+        <Button variant="contained" onClick={() => history.push("/createuser")} style={{backgroundColor:" #4e73df",marginLeft:"45%"}}>Update Status</Button>
       <div className="card shadow mb-4">
         <div className="card-header py-3">
           <h4 className="stat">Overall Performance</h4>
@@ -75,7 +73,7 @@ export function Mockinterview() {
                       <td>
                         <Link
                           to={"/users/edit/" + (index + 1)}
-                          className="btn btn-sm btn-primary"
+                         
                           style={{color:" #4e73df"}}
                         >
                           <EditIcon/>
@@ -84,10 +82,10 @@ export function Mockinterview() {
                           onClick={() => {
                             handledelete(index + 1);
                           }}
-                          style={{color:" #4e73df"}}
-                          className="btn btn-sm btn-danger ml-1"
+                          style={{backgroundcolor:" #4e73df" }}
+                         
                         >
-                         <DeleteIcon/>
+                         <DeleteIcon  style={{color:" #4e73df"}}/>
                         </button>
                       </td>
                     </tr>

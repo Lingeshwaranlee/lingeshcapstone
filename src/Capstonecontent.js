@@ -22,19 +22,17 @@ export function Capstonecontent() {
         padding:"2%"
       }}
     >   
-   
     <div style={{color:'black',display:"flex"}}>
       <div>
-<h2>LINGESHWARAN</h2>
-<p>(B30WD TAMIL Capstone Project)<br></br>Zen class student dashboard</p>
+<h3>LINGESHWARAN</h3>
+<p >(B30WD TAMIL Capstone Project)<br></br>Zen class student dashboard</p>
+</div>
+<div style={{paddingLeft:"12%",marginTop:"5%"}}>
+  <h6 style={{textAlign:"center"}}>Yet to be graded</h6>
 </div>
 <div>
-  <h3 style={{textAlign:"center",margin:"24%"}}>Yet to be graded</h3>
+<Button variant="contained"style={{margin:"24%"}}onClick={() => history.push("/cap")}>Capstone</Button>
 </div>
-<div>
-<Button variant="contained"style={{marginTop:"44%",color:"orangered",backgroundColor:"rgb(247, 194, 96)"}}onClick={() => history.push("/cap")}>Capstone</Button>
-</div>
-
     </div>
     <hr></hr>
     <p>Description :<span>To identify and implement the Capstone project as the title given below by meeting all the necessary requirements.</span></p>
@@ -69,19 +67,22 @@ export function Capstonecontent() {
      <h4 style={{color:"black"}}>Code</h4>
      <hr></hr>
      <div style={{display:"flex"}}>
-     <h4 style={{color:"black"}}>Front-end Source code</h4>
+     <h6 style={{color:"black"}}>Front-end Source code</h6>
      <TextField id="outlined-basic"  variant="outlined" style={{paddingLeft:"42%"}} />
      </div>
+      <hr></hr>
      <div style={{display:"flex"}}>
-     <h4 style={{color:"black"}}>Back-end Source code</h4>
+     <h6 style={{color:"black"}}>Back-end Source code</h6>
      <TextField id="outlined-basic"  variant="outlined" style={{paddingLeft:"43%"}} />
      </div>
+      <hr></hr>
      <div style={{display:"flex"}}>
-     <h4 style={{color:"black"}}>Front-end Deployed URL</h4>
+     <h6 style={{color:"black"}}>Front-end Deployed URL</h6>
      <TextField id="outlined-basic"  variant="outlined" style={{paddingLeft:"41%"}} />
      </div>
+      <hr></hr>
      <div style={{display:"flex"}}>
-     <h4 style={{color:"black"}}>Back-end Deployed URL</h4>
+     <h6 style={{color:"black"}}>Back-end Deployed URL</h6>
      <TextField id="outlined-basic"  variant="outlined" style={{paddingLeft:"42%"}} />
      </div>
      <Button variant="contained" style={{marginLeft:"70%"}} onClick={() => history.push("/response")}>Submit</Button>

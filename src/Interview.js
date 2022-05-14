@@ -6,13 +6,14 @@ export function Interview() {
           justifyContent: "center",
           textAlign: "center",
           color: " #4e73df",
+          padding:"1%" 
         }}
       >
         INTERVIEW
       </h1>
-      <h2 style={{ justifyContent: "center", textAlign: "center" }}>
+      <h3 style={{ justifyContent: "center", textAlign: "center" }}>
         Content available after completing Placement preparation
-      </h2>
+      </h3>
     </div>
   );
 }

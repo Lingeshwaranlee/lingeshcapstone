@@ -12,7 +12,7 @@ import { Leave } from "./Leave";
 import { Interview } from "./Interview";
 import { Applications } from "./Applications";
 import { Requirements } from "./Requirements";
-import { Queries } from "./Queries";
+
 import { Capstone } from "./Capstone";
 import { Hackathon } from "./Hackathon";
 import { Task } from "./Task";
@@ -21,6 +21,10 @@ import { Class } from "./Class";
 import { Student } from "./Student";
 import { Capstonecontent } from "./Capstonecontent";
 import { Response } from "./Response";
+import { Hack } from "./Hack";
+import { Query } from "./Query";
+import { ApplyLeave } from "./ApplyLeave";
+
 function App() {
   return (
     <div className="App wrapper">
@@ -46,6 +50,9 @@ function App() {
             <Route path="/hackathon" exact>
               <Hackathon />
             </Route>
+            <Route path="/hack" exact>
+              <Hack />
+            </Route>
 
             <Route path="/capstone" exact>
               <Capstone />
@@ -57,9 +64,6 @@ function App() {
               <Response />
             </Route>
 
-            <Route path="/queries" exact>
-              <Queries />
-            </Route>
             <Route path="/requirements" exact>
               <Requirements />
             </Route>
@@ -69,9 +73,14 @@ function App() {
             <Route path="/interview" exact>
               <Interview />
             </Route>
-
+            <Route path="/queries" exact>
+              <Query />
+            </Route>
             <Route path="/Leave" exact>
               <Leave />
+            </Route>
+            <Route path="/apply" exact>
+              <ApplyLeave />
             </Route>
             <Route path="/certificate" exact>
               <Certificate />

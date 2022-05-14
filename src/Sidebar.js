@@ -34,7 +34,7 @@ export default function Sidebar() {
        <div className="nav-item">
         <Link className="nav-link" to="/" style={{textDecoration:"none"}}>
          
-        <RiAccountBoxFill/> <span>  STUDENT</span>
+        <RiAccountBoxFill style={{color:"black"}}/> <span>  STUDENT</span>
         </Link>
       </div>
 
@@ -42,21 +42,21 @@ export default function Sidebar() {
       <div className="nav-item">
         <Link className="nav-link" to="/class" style={{textDecoration:"none"}}>
          
-        <RiAccountPinCircleFill /> <span>  CLASS</span>
+        <RiAccountPinCircleFill  style={{color:"black"}}/> <span>  CLASS</span>
         </Link>
       </div>
 
       <div className="nav-item">
         <Link className="nav-link" to="/dashboard"  style={{textDecoration:"none"}}>
         
-        <RiDashboardFill/> <span> DASHBOARD</span>
+        <RiDashboardFill style={{color:"black"}}/> <span> DASHBOARD</span>
         </Link>
       </div>
 
       <div className="nav-item">
         <Link className="nav-link" to="/users" style={{textDecoration:"none"}}>
           
-        <CgNotes/>  <span>MOCK INTERVIEW</span>
+        <CgNotes style={{color:"black"}}/>  <span>MOCK INTERVIEW</span>
         </Link>
       </div>
 
@@ -65,60 +65,61 @@ export default function Sidebar() {
       <div className="nav-item">
         <Link className="nav-link" to="/task" style={{textDecoration:"none"}}>
          
-        <MdDashboardCustomize/> <span>TASKS</span>
+        <MdDashboardCustomize style={{color:"black"}}/> <span>TASKS</span>
         </Link>
       </div>
 
       <div className="nav-item">
         <Link className="nav-link" to="/hackathon" style={{textDecoration:"none"}}>
          
-         <MdAccountBalanceWallet/> <span>HACKATHON</span>
+         <MdAccountBalanceWallet style={{color:"black"}}/> <span>HACKATHON</span>
+        </Link>
+      </div>
+      <div className="nav-item">
+        <Link className="nav-link" to="/queries" style={{textDecoration:"none"}}>
+         
+        <SiJquery style={{color:"black"}}/>  <span>QUERIES</span>
         </Link>
       </div>
 
       <div className="nav-item">
         <Link className="nav-link" to="/capstone" style={{textDecoration:"none"}}>
         
-        <MdSwitchAccount/>  <span>CAPSTONE</span>
+        <MdSwitchAccount style={{color:"black"}}/>  <span>CAPSTONE</span>
         </Link>
       </div>
 
-      <div className="nav-item">
-        <Link className="nav-link" to="/queries" style={{textDecoration:"none"}}>
-         
-        <SiJquery/>  <span>QUERIES</span>
-        </Link>
-      </div>
+     
 
       <div className="nav-item">
         <Link className="nav-link" to="/requirements" style={{textDecoration:"none"}}>
          
-         <VscNotebook/> <span>REQUIREMENTS</span>
+         <VscNotebook style={{color:"black"}}/> <span>REQUIREMENTS</span>
         </Link>
       </div>
       <div className="nav-item">
         <Link className="nav-link" to="/applications" style={{textDecoration:"none"}}>
          
-         <MdSettingsApplications/> <span>APPLICATIONS</span>
+         <MdSettingsApplications style={{color:"black"}}/> <span>APPLICATIONS</span>
         </Link>
       </div>
       <div className="nav-item">
         <Link className="nav-link" to="/interview" style={{textDecoration:"none"}}>
          
-      <VscTasklist/>   <span>INTERVIEW TASK</span>
+      <VscTasklist style={{color:"black"}}/>   <span>INTERVIEW TASK</span>
         </Link>
       </div>
       <div className="nav-item">
         <Link className="nav-link" to="/Leave" style={{textDecoration:"none"}}>
           
-         <MdOutlineTask/> <span>LEAVE-APPLICATION</span>
+         <MdOutlineTask style={{color:"black"}}/> <span>LEAVE-APPLICATION</span>
         </Link>
       </div>
       
       <div className="nav-item">
         <Link className="nav-link" to="/certificate" style={{textDecoration:"none"}}>
          
-        <GrCertificate/>  <span>CERTIFICATE</span>
+        <GrCertificate style={{color:"black"}}/>  <span>CERTIFICATE</span>
         </Link>
       </div>
       

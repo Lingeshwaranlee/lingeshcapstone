@@ -23,14 +23,14 @@ export function Capstone() {
    
     <div style={{color:'black',display:"flex"}}>
       <div>
-<h2 style={{}}>LINGESHWARAN</h2>
-<p style={{}}>(B30WD TAMIL Capstone Project)<br></br>Zen class student dashboard</p>
+<h3>LINGESHWARAN</h3>
+<p >(B30WD TAMIL Capstone Project)<br></br>Zen class student dashboard</p>
+</div>
+<div style={{paddingLeft:"12%",marginTop:"5%"}}>
+  <h6 style={{textAlign:"center"}}>Yet to be graded</h6>
 </div>
 <div>
-  <h3 style={{textAlign:"center",margin:"24%"}}>Yet to be graded</h3>
-</div>
-<div>
-<Button variant="contained"style={{margin:"44%",color:"orangered",backgroundColor:"rgb(247, 194, 96)"}}onClick={() => history.push("/cap")}>Capstone</Button>
+<Button variant="contained"style={{margin:"24%"}}onClick={() => history.push("/cap")}>Capstone</Button>
 </div>
     </div>
     </Box>

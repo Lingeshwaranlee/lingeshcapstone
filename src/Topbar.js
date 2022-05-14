@@ -13,7 +13,7 @@ function Topbar() {
     
       
     <Box sx={{ flexGrow: 1 }}>
-    <AppBar position="static" style={{ background:  "#4e73df",color:"white",marginTop:'1rem'}}>
+    <AppBar position="static" style={{ background:  "#4e73df",color:"white"}}>
       <Toolbar>
        
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
