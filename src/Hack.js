@@ -43,6 +43,7 @@ export function Hack() {
     <p style={{color:"black"}}>Description :<span>Task Document Link:</span></p>
     
     <h6>https://docs.google.com/document/d/1qmc61neCuTkp3UDRSR-HdNovphI3IULBUlGLrdKcUGg/preview </h6>
+    <hr></hr>
     <h4 style={{color:"black"}}>Guidelines:</h4>
     <p>You have 24 hours to complete the project before the deadline.  </p>
     <p>Raise a query ticket only in the Zen portal and get your doubts resolved.  </p>
@@ -69,7 +70,7 @@ export function Hack() {
      <p style={{paddingLeft:"22%"}} >	https://cerulean-brioche-6b7076.netlify.app/</p>
      </div>
       <hr></hr>
-     <Button variant="contained" style={{marginLeft:"70%"}} onClick={() => history.push("/response")}>Submit</Button>
+     <Button variant="contained" style={{marginLeft:"70%"}} >Submitted</Button>
     </Box>
     </div>
     </div>

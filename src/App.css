@@ -428,3 +428,9 @@ body.sidebar-toggled footer.sticky-footer {
   text-align: center;
 
 }
+.recipe-form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 16px;
+}

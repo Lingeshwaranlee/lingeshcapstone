@@ -11,7 +11,7 @@ import ExpandMore from "@mui/icons-material/ExpandMore";
 import { useHistory } from "react-router-dom";
 import { useState } from "react";
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
-import { RiAccountBoxFill,RiAccountPinCircleFill,RiDashboardFill } from 'react-icons/ri';
+import { RiAccountBoxFill,RiAccountPinCircleFill,RiDashboardFill ,RiNewspaperLine} from 'react-icons/ri';
 import { MdDashboardCustomize,MdSettingsApplications,MdAccountBalanceWallet,MdSwitchAccount,MdOutlineTask} from 'react-icons/md';
 import {SiJquery} from 'react-icons/si';
 import {DiRequirejs} from 'react-icons/di';
@@ -38,7 +38,7 @@ export default function Sidebar() {
         </Link>
       </div>
 
-      <hr className="sidebar-divider my-0" />
+      <hr style={{color:"black"}} />
       <div className="nav-item">
         <Link className="nav-link" to="/class" style={{textDecoration:"none"}}>
          
@@ -100,7 +100,7 @@ export default function Sidebar() {
       <div className="nav-item">
         <Link className="nav-link" to="/applications" style={{textDecoration:"none"}}>
          
-         <MdSettingsApplications style={{color:"black"}}/> <span>APPLICATIONS</span>
+         <RiNewspaperLine style={{color:"black"}}/> <span>APPLICATIONS</span>
         </Link>
       </div>
       <div className="nav-item">

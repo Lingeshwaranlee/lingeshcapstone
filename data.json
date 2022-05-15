@@ -1,0 +1,44 @@
+[
+  {
+    "roll": "1",
+    "title": "Placement",
+    "category": "Zen placement",
+    "description": "when will i get my placement ",
+    "language": "TAMIL"
+  },
+  {
+    "roll": "2",
+    "title": "React",
+    "category": "Zen Class doubt",
+    "description": "I had a doubt in react router dom",
+    "language": "TAMIL"
+  },
+  {
+    "roll": "3",
+    "title": "React",
+    "category": "Zen Class doubt",
+    "description": "I had a doubt in usestate and usecontext",
+    "language": "TAMIL"
+  },
+  {
+    "roll": "4",
+    "title": "Node",
+    "category": "Zen Class doubt",
+    "description": "I am unable to install nodejs",
+    "language": "TAMIL"
+  },
+  {
+    "roll": "5",
+    "title": "Express",
+    "category": "Zen Class doubt",
+    "description": "I am unable to get data from MongoDB ",
+    "language": "TAMIL"
+  },
+  {
+    "roll": "6",
+    "title": "Mongo db",
+    "category": "Zen Class doubt",
+    "description": "I had a doubt in fetching data from express to postman",
+    "language": "TAMIL"
+  }
+]

@@ -24,6 +24,7 @@ import { Response } from "./Response";
 import { Hack } from "./Hack";
 import { Query } from "./Query";
 import { ApplyLeave } from "./ApplyLeave";
+import { Querycontent } from "./Querycontent";
 
 function App() {
   return (
@@ -75,6 +76,9 @@ function App() {
             </Route>
             <Route path="/queries" exact>
               <Query />
+            </Route>
+            <Route path="/query" exact>
+              <Querycontent />
             </Route>
             <Route path="/Leave" exact>
               <Leave />

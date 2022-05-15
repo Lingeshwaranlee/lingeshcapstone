@@ -1,11 +1,12 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { useHistory } from 'react-router-dom';
+import { MdSwitchAccount} from 'react-icons/md';
 export function Capstone() {
   const history =useHistory(); 
   return (
   <div>
-     <h1 style={{justifyContent: "center",textAlign: "center", color: " #4e73df",}}>CAPSTONE</h1>
+     <h2 style={{justifyContent: "center",textAlign: "center", color: " #4e73df",}}>CAPSTONE <MdSwitchAccount style={{color:"black"}}/></h2>
      <Box
       sx={{
         width: "50%",

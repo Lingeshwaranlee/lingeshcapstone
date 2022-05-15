@@ -1,36 +1,18 @@
+import {useEffect, useState } from "react";
 import Button from '@mui/material/Button';
 import { useHistory } from 'react-router-dom';
+import { MdOutlineTask} from 'react-icons/md';
 export function Leave() {
-  const leo=[
-    {
-      roll:"1",
-      from:"21-01-2022",
-      to:"22-01-2022",
-      reasons:"I have an appointment to meet my girl friend",
-      approval:"Not Approved",
-    },
-    {
-      roll:"2",
-      from:"   21-12-2021",
-      to:"28-12-2021",
-      reasons:"I am going outstation with my family so kindly give me a leave",
-      approval:" Approved",
-    },
-  
-    {
-      roll:"3",
-      from:"12-02-2022",
-      to:"28-02-2022",
-      reasons:"I had corono positive so needed a break ",
-      approval:" Approved",
-    },
-   
-   
-  ]
+  const [leave,setleave]=useState([]);
+  useEffect(()=>{
+    fetch("https://620c529fb5736325938b91f9.mockapi.io/hack")
+    .then((data)=>data.json())
+    .then((mvs)=>setleave(mvs));
+  },[])
   const history =useHistory();
   return(
     <div>
-      <h2 style={{justifyContent: "center",textAlign: "center", color: " #4e73df",padding:"20px"}}>Leave-Appplication</h2>
+      <h2 style={{justifyContent: "center",textAlign: "center", color: " #4e73df",padding:"20px"}}>Leave-Appplication <MdOutlineTask style={{color:"black"}}/></h2>
       <table  className="table table-bordered"
               id="dataTable"
               style={{ width: "100%", cellspacing: "0",textAlign:'center' }}>
@@ -45,7 +27,7 @@ export function Leave() {
   </thead>
   </table>
   <div>
-      {leo.map((user)=><Approved roll={user.roll} from={user.from} to={user.to} approval={user.approval} reasons={ user.reasons}  />)}
+      {leave.map((user)=><Approved roll={user.roll} from={user.from} to={user.to} approval={user.approval} reasons={ user.reasons}  />)}
       </div>
       <Button variant="contained" style={{marginLeft:"40%"}} onClick={() => history.push("/apply")}>Apply Leave</Button>
       </div>
