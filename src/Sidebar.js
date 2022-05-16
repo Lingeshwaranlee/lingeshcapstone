@@ -53,13 +53,13 @@ export default function Sidebar() {
         </Link>
       </div>
 
+      
       <div className="nav-item">
-        <Link className="nav-link" to="/users" style={{textDecoration:"none"}}>
-          
-        <CgNotes />  <span>MOCK INTERVIEW</span>
+        <Link className="nav-link" to="/hackathon" style={{textDecoration:"none"}}>
+         
+         <MdAccountBalanceWallet /> <span>HACKATHON</span>
         </Link>
       </div>
-
       
 
       <div className="nav-item">
@@ -70,9 +70,9 @@ export default function Sidebar() {
       </div>
 
       <div className="nav-item">
-        <Link className="nav-link" to="/hackathon" style={{textDecoration:"none"}}>
-         
-         <MdAccountBalanceWallet /> <span>HACKATHON</span>
+        <Link className="nav-link" to="/users" style={{textDecoration:"none"}}>
+          
+        <CgNotes />  <span>MOCK INTERVIEW</span>
         </Link>
       </div>
       <div className="nav-item">
