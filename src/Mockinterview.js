@@ -5,6 +5,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import Button from '@mui/material/Button';
 import { useHistory } from 'react-router-dom';
+import { CgNotes} from 'react-icons/cg';
 
 
 export function Mockinterview() {
@@ -20,7 +21,7 @@ export function Mockinterview() {
   return (
     <div>
       <div className="top-container d-flex mb-4">
-        <h3 style={{textAlign:"center",paddingLeft:"43%"}}>Mock Interview</h3>
+        <h2 style={{textAlign:"center",paddingLeft:"40%"}}>Mock Interview <CgNotes style={{color:"black"}}/></h2>
         </div>
         <Button variant="contained" onClick={() => history.push("/createuser")} style={{backgroundColor:" #4e73df",marginLeft:"45%"}}>Update Status</Button>
       <div className="card shadow mb-4">

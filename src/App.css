@@ -434,3 +434,17 @@ body.sidebar-toggled footer.sticky-footer {
   gap: 16px;
   margin: 16px;
 }
+.progress {
+  box-shadow: 0 8px 6px -6px rgb(0 0 0 / 40%);
+}
+.progress, .progress-bar {
+  display: flex;
+  overflow: hidden;
+}
+.progress {
+  height: 1rem;
+  line-height: 0;
+  font-size: .75rem;
+  background-color:rgb(232, 223, 223);
+  border-radius: 0.25rem;
+}

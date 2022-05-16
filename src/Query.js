@@ -30,7 +30,7 @@ export function Query() {
   <div>
       {query.map((user)=><Doubt roll={user.roll} title={user.title} category={user.category} description={user.description} language={ user.language}  />)}
       </div>
-      <Button variant="contained" style={{marginLeft:"40%"}} onClick={() => history.push("/query")}>create QUERY +</Button>
+      <Button variant="contained" style={{marginLeft:"43%"}} onClick={() => history.push("/query")}>create QUERY +</Button>
     </div>
   );
 }

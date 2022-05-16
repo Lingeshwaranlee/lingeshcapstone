@@ -13,7 +13,7 @@ export function Capstone() {
         height: "100%",
         backgroundColor: 'white',
         marginTop:'3%',
-        marginLeft:"27%",
+        marginLeft:"25%",
         borderRadius:"12px",
         overflow: "hidden",
         boxShadow: "rgb(0 0 0 / 24%) 1px 2px 13px",
@@ -35,6 +35,7 @@ export function Capstone() {
 </div>
     </div>
     </Box>
+    <img style={{marginLeft:'22%',padding:"3%",width:"55%"}} src='https://peachyessay.com/wp-content/uploads/2022/01/capstone-project-ideas-1024x599.jpeg' alt='img'></img>
     </div>
     )
 }

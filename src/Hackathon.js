@@ -13,7 +13,7 @@ export function Hackathon() {
         height: "100%",
         backgroundColor: 'white',
         marginTop:'3%',
-        marginLeft:"27%",
+        marginLeft:"24%",
         borderRadius:"12px",
         overflow: "hidden",
         boxShadow: "rgb(0 0 0 / 24%) 1px 2px 13px",
@@ -37,6 +37,7 @@ export function Hackathon() {
 </div>
     </div>
     </Box>
+    <img style={{marginLeft:'28%',padding:"3%"}} src='https://en.pimg.jp/076/333/201/1/76333201.jpg' alt='img'></img>
     </div>
     )
 }

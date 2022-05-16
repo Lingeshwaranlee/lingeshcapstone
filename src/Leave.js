@@ -29,7 +29,7 @@ export function Leave() {
   <div>
       {leave.map((user)=><Approved roll={user.roll} from={user.from} to={user.to} approval={user.approval} reasons={ user.reasons}  />)}
       </div>
-      <Button variant="contained" style={{marginLeft:"40%"}} onClick={() => history.push("/apply")}>Apply Leave</Button>
+      <Button variant="contained" style={{marginLeft:"45%"}} onClick={() => history.push("/apply")}>Apply Leave</Button>
       </div>
   );
 }

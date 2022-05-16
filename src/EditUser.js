@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import UserContext from "./UserContext";
+import Box from '@mui/material/Box';
 
 function Editusers(props) {
   const { userData, setUserData } = useContext(UserContext);
@@ -24,6 +25,19 @@ function Editusers(props) {
   };
 
   return (
+    <Box sx={{
+      width: "80%",
+      height: "80%",
+      backgroundColor: 'white',
+      marginTop:'3%',
+      marginLeft:"10%",
+      borderRadius:"12px",
+      overflow: "hidden",
+      boxShadow: "rgb(0 0 0 / 24%) 1px 2px 13px",
+      position:"static",
+      padding:"2%"
+    }}
+  >
     <div>
       <h3 className="ml-3">Edit Existing user</h3>
       <div className="container">
@@ -100,6 +114,7 @@ function Editusers(props) {
         </form>
       </div>
     </div>
+    </Box>
   );
 }
 

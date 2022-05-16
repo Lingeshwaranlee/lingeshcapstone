@@ -34,7 +34,7 @@ export default function Sidebar() {
        <div className="nav-item">
         <Link className="nav-link" to="/" style={{textDecoration:"none"}}>
          
-        <RiAccountBoxFill style={{color:"black"}}/> <span>  STUDENT</span>
+        <RiAccountBoxFill /> <span>  STUDENT</span>
         </Link>
       </div>
 
@@ -42,21 +42,21 @@ export default function Sidebar() {
       <div className="nav-item">
         <Link className="nav-link" to="/class" style={{textDecoration:"none"}}>
          
-        <RiAccountPinCircleFill  style={{color:"black"}}/> <span>  CLASS</span>
+        <RiAccountPinCircleFill  /> <span>  CLASS</span>
         </Link>
       </div>
 
       <div className="nav-item">
         <Link className="nav-link" to="/dashboard"  style={{textDecoration:"none"}}>
         
-        <RiDashboardFill style={{color:"black"}}/> <span> DASHBOARD</span>
+        <RiDashboardFill /> <span> DASHBOARD</span>
         </Link>
       </div>
 
       <div className="nav-item">
         <Link className="nav-link" to="/users" style={{textDecoration:"none"}}>
           
-        <CgNotes style={{color:"black"}}/>  <span>MOCK INTERVIEW</span>
+        <CgNotes />  <span>MOCK INTERVIEW</span>
         </Link>
       </div>
 
@@ -65,61 +65,60 @@ export default function Sidebar() {
       <div className="nav-item">
         <Link className="nav-link" to="/task" style={{textDecoration:"none"}}>
          
-        <MdDashboardCustomize style={{color:"black"}}/> <span>TASKS</span>
+        <MdDashboardCustomize /> <span>TASKS</span>
         </Link>
       </div>
 
       <div className="nav-item">
         <Link className="nav-link" to="/hackathon" style={{textDecoration:"none"}}>
          
-         <MdAccountBalanceWallet style={{color:"black"}}/> <span>HACKATHON</span>
+         <MdAccountBalanceWallet /> <span>HACKATHON</span>
         </Link>
       </div>
       <div className="nav-item">
         <Link className="nav-link" to="/queries" style={{textDecoration:"none"}}>
          
-        <SiJquery style={{color:"black"}}/>  <span>QUERIES</span>
+        <SiJquery />  <span>QUERIES</span>
         </Link>
       </div>
 
-      <div className="nav-item">
-        <Link className="nav-link" to="/capstone" style={{textDecoration:"none"}}>
-        
-        <MdSwitchAccount style={{color:"black"}}/>  <span>CAPSTONE</span>
-        </Link>
-      </div>
-
-     
+         
 
       <div className="nav-item">
         <Link className="nav-link" to="/requirements" style={{textDecoration:"none"}}>
          
-         <VscNotebook style={{color:"black"}}/> <span>REQUIREMENTS</span>
+         <VscNotebook /> <span>REQUIREMENTS</span>
+        </Link>
+      </div>
+      <div className="nav-item">
+        <Link className="nav-link" to="/capstone" style={{textDecoration:"none"}}>
+        
+        <MdSwitchAccount />  <span>CAPSTONE</span>
         </Link>
       </div>
       <div className="nav-item">
         <Link className="nav-link" to="/applications" style={{textDecoration:"none"}}>
          
-         <RiNewspaperLine style={{color:"black"}}/> <span>APPLICATIONS</span>
+         <RiNewspaperLine /> <span>APPLICATIONS</span>
         </Link>
       </div>
       <div className="nav-item">
         <Link className="nav-link" to="/interview" style={{textDecoration:"none"}}>
          
-      <VscTasklist style={{color:"black"}}/>   <span>INTERVIEW TASK</span>
+      <VscTasklist />   <span>INTERVIEW TASK</span>
         </Link>
       </div>
       <div className="nav-item">
         <Link className="nav-link" to="/Leave" style={{textDecoration:"none"}}>
           
-         <MdOutlineTask style={{color:"black"}}/> <span>LEAVE-APPLICATION</span>
+         <MdOutlineTask /> <span>LEAVE-APPLICATION</span>
         </Link>
       </div>
       
       <div className="nav-item">
         <Link className="nav-link" to="/certificate" style={{textDecoration:"none"}}>
          
-        <GrCertificate style={{color:"black"}}/>  <span>CERTIFICATE</span>
+        <GrCertificate style={{color:"black"}} />  <span>CERTIFICATE</span>
         </Link>
       </div>
       

@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import UserContext from "./UserContext";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import Box from '@mui/material/Box';
 function CreateUser() {
   const [userName, setUserName] = useState("");
   const [position, setPosition] = useState("");
@@ -20,6 +21,19 @@ function CreateUser() {
   };
 
   return (
+    <Box sx={{
+      width: "80%",
+      height: "80%",
+      backgroundColor: 'white',
+      marginTop:'3%',
+      marginLeft:"10%",
+      borderRadius:"12px",
+      overflow: "hidden",
+      boxShadow: "rgb(0 0 0 / 24%) 1px 2px 13px",
+      position:"static",
+      padding:"2%"
+    }}
+  >
     <div>
       <h3 className="ml-3 mb-4">Create New user</h3>
       <div className="container">
@@ -84,6 +98,7 @@ function CreateUser() {
         </form>
       </div>
     </div>
+    </Box>
   );
 }
 
