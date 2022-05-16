@@ -26,7 +26,7 @@ export function Student() {
     src="https://miro.medium.com/max/1400/1*HdBFQ9EO_Vc4-lHKShFbAQ.png"
   ></img>
    <h2 style={{justifyContent: "center",textAlign: "center",color:" #4e73df"}}>Tools To Use</h2>
-    <div style={{paddingLeft:"28%",color:'black',}}>
+    <div style={{paddingLeft:"28%",color:'black'}}>
  
     <IconButton aria-label="delete" style={{fontSize:"80px",color:'black'}}><SiVisualstudiocode /></IconButton>
    <IconButton aria-label="delete" style={{fontSize:"80px",color:'black'}}><SiPostman /></IconButton>

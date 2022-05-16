@@ -35,7 +35,7 @@ export function Capstone() {
 </div>
     </div>
     </Box>
-    <img style={{marginLeft:'22%',padding:"3%",width:"55%"}} src='https://peachyessay.com/wp-content/uploads/2022/01/capstone-project-ideas-1024x599.jpeg' alt='img'></img>
+    <img style={{marginLeft:'22%',padding:"3%",width:"55%"}} src='https://essaymin.com/wp-content/uploads/2018/05/importance-of-captone-project-1080x675.jpg' alt='img'></img>
     </div>
     )
 }
