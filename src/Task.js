@@ -58,7 +58,7 @@ export function Task() {
       }}
     >   
    
-  
+  <div></div>
   {ken.map((user)=><Zen task={user.task} date={user.date} mark={user.mark}  />)}
   </Box>
       </div>
@@ -85,7 +85,7 @@ function Zen({task,date,mark}){
       }}
     >   
    
-    <div style={{color:'black',display:"flex"}}>
+    <div style={{color:'black',display:"flex", flexWrap: "wrap"}}>
       <div>
 <h4 >LINGESHWARAN</h4>
 <p >(B30WD TAMIL Hackathon Project)<br></br>{task}</p>

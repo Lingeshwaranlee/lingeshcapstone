@@ -20,10 +20,12 @@ export function Mockinterview() {
   const history = useHistory();
   return (
     <div>
-      <div className="top-container d-flex mb-4">
-        <h2 style={{textAlign:"center",paddingLeft:"40%"}}>Mock Interview <CgNotes style={{color:"black"}}/></h2>
-        </div>
-        <Button variant="contained" onClick={() => history.push("/createuser")} style={{backgroundColor:" #4e73df",marginLeft:"45%"}}>Update Status</Button>
+       <h2 style={{justifyContent: "center",textAlign: "center",}}>Mock Interview <CgNotes style={{color:"black"}}/></h2>
+       <div style={{justifyContent: "center",textAlign: "center",}}>
+      <Button variant="contained"  onClick={() => history.push("/createuser")}>Update Status</Button>
+      </div>
+       
+       
       <div className="card shadow mb-4">
         <div className="card-header py-3">
           <h4 className="stat">Overall Performance</h4>

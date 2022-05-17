@@ -24,7 +24,7 @@ export function Capstone() {
    
     <div style={{color:'black',display:"flex"}}>
       <div>
-<h3>LINGESHWARAN</h3>
+<h6>LINGESHWARAN</h6>
 <p >(B30WD TAMIL Capstone Project)<br></br>Zen class student dashboard</p>
 </div>
 <div style={{paddingLeft:"12%",marginTop:"5%"}}>

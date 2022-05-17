@@ -27,16 +27,20 @@ export function Query() {
     </tr>
   </thead>
   </table>
-  <div>
+  <div className="card-body" >
+  <div  className="table-responsive">
       {query.map((user)=><Doubt roll={user.roll} title={user.title} category={user.category} description={user.description} language={ user.language}  />)}
       </div>
-      <Button variant="contained" style={{marginLeft:"43%"}} onClick={() => history.push("/query")}>create QUERY +</Button>
+      </div>
+      <div style={{justifyContent: "center",textAlign: "center",}}>
+      <Button variant="contained"  onClick={() => history.push("/query")}>create QUERY +</Button>
+      </div>
     </div>
   );
 }
 function Doubt({roll,title,category,description,language}){
   return(
-    <div>
+    <div className="card-body" >
 <table  className="table table-bordered"
               id="dataTable"
               style={{ width: "100%", cellspacing: "0",textAlign:'center' }}>

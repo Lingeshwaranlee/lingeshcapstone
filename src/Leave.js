@@ -26,11 +26,15 @@ export function Leave() {
     </tr>
   </thead>
   </table>
-  <div>
+  <div  className="table-responsive">
       {leave.map((user)=><Approved roll={user.roll} from={user.from} to={user.to} approval={user.approval} reasons={ user.reasons}  />)}
       </div>
-      <Button variant="contained" style={{marginLeft:"45%"}} onClick={() => history.push("/apply")}>Apply Leave</Button>
+      <div style={{justifyContent: "center",textAlign: "center",}}>
+      <Button variant="contained"  onClick={() => history.push("/apply")}>Apply Leave</Button>
       </div>
+      </div>
+      
+      
   );
 }
 

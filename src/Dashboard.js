@@ -27,8 +27,8 @@ export function Dashboard() {
        </div>
        </Box>
     </div>
-    <div>
-    <h4 style={{marginTop:'1%', marginLeft:"2%",}}>ATTENDANCE</h4>
+    <div style={{width:"100%"}}>
+    <h4 style={{marginTop:'3%', marginLeft:"2%",}}>ATTENDANCE</h4>
     <Box
       sx={{
         width: "25%",
@@ -39,12 +39,13 @@ export function Dashboard() {
         borderRadius:"12px",
         overflow: "hidden",
         boxShadow: "rgb(0 0 0 / 24%) 1px 2px 13px",
-        position:"static",
-        padding:"2%"
+        position:"relative",
+        padding:"3%",
+        className:"table-responsive"
       }}
     >
    <h1 style={{textAlign:"center",color:"green"}}>80%</h1>
-   <h5 style={{textAlign:"center"}}>Go To Classes</h5>
+   <h5 style={{justifyContent:"center",textAlign:"center"}}>Go To Classes</h5>
        </Box>
     </div>
     </div>

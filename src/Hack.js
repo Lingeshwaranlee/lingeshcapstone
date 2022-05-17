@@ -20,12 +20,13 @@ export function Hack() {
         overflow: "hidden",
         boxShadow: "rgb(0 0 0 / 24%) 1px 2px 13px",
         position:"static",
-        padding:"2%"
+        padding:"2%",
+        className:"table"
       }}
     >   
    
   
-    <div style={{color:'black',display:"flex"}}>
+    <div style={{color:'black',display:"flex",flexWrap:"nowrap"}}>
       <div>
 <h3 >LINGESHWARAN</h3>
 <p >(B30WD TAMIL Hackathon Project)<br></br>Zen class student dashboard</p>

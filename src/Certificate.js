@@ -6,7 +6,7 @@ export function Certificate() {
       <h4 style={{ justifyContent: "center", textAlign: "center",padding:"3%"  }}>
         Your Certificate is not yet Generated.
       </h4>
-      <img style={{marginLeft:'28%'}} src='https://media.istockphoto.com/videos/certificate-icon-animation-video-id1034003628?s=640x640' alt='img'></img>
+      <img style={{marginLeft:'28%',padding:"3%",width:"55%"}} src='https://media.istockphoto.com/videos/certificate-icon-animation-video-id1034003628?s=640x640' alt='img'></img>
     </div>
   );
 }

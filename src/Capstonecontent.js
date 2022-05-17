@@ -7,7 +7,7 @@ export function Capstonecontent() {
   return( 
   <div >
     
-    <div style={{paddingLeft:"18%"}}>
+    <div style={{paddingLeft:"18%",width:"100%"}}>
    <Box
       sx={{
         width: "70%",
@@ -22,7 +22,7 @@ export function Capstonecontent() {
         padding:"2%"
       }}
     >   
-    <div style={{color:'black',display:"flex"}}>
+    <div style={{color:'black',display:"flex", flexWrap: "wrap"}}>
       <div>
 <h3>LINGESHWARAN</h3>
 <p >(B30WD TAMIL Capstone Project)<br></br>Zen class student dashboard</p>
