@@ -6,7 +6,7 @@ export function Interview() {
       <h5 style={{ justifyContent: "center", textAlign: "center",padding:"3%",width:"100%"  }}>
         Content available after completing Placement preparation
       </h5>
-      <img style={{marginLeft:'20%',width:"50%"}} src='https://omc5825sv9k3qyi3q2ord7gk-wpengine.netdna-ssl.com/wp-content/uploads/2020/07/Interview-guide.jpg' alt='img'></img>
+      <img style={{marginLeft:'22%',width:"50%"}} src='https://omc5825sv9k3qyi3q2ord7gk-wpengine.netdna-ssl.com/wp-content/uploads/2020/07/Interview-guide.jpg' alt='img'></img>
     </div>
   );
 }

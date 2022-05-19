@@ -22,7 +22,7 @@ export function Capstone() {
       }}
     >   
    
-    <div style={{color:'black',display:"flex"}}>
+    <div style={{color:'black',display:"flex",flexWrap:"wrap"}}>
       <div>
 <h6>LINGESHWARAN</h6>
 <p >(B30WD TAMIL Capstone Project)<br></br>Zen class student dashboard</p>
@@ -35,7 +35,9 @@ export function Capstone() {
 </div>
     </div>
     </Box>
-    <img style={{marginLeft:'22%',padding:"3%",width:"55%"}} src='https://essaymin.com/wp-content/uploads/2018/05/importance-of-captone-project-1080x675.jpg' alt='img'></img>
+    <div style={{borderRadius:"12px"}}>
+    <img style={{marginLeft:'26%',padding:"3%",width:"50%"}} src='https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190626123927/untitlsssssed.png' alt='img'></img>
+    </div>
     </div>
     )
 }

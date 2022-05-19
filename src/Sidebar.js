@@ -1,20 +1,10 @@
 import { Link } from "react-router-dom";
-import List from "@mui/material/List";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import SettingsIcon from "@mui/icons-material/Settings";
-import ListSubheader from "@mui/material/ListSubheader";
-import ListItemButton from "@mui/material/ListItemButton";
-import Collapse from "@mui/material/Collapse";
-import ExpandLess from "@mui/icons-material/ExpandLess";
-import ExpandMore from "@mui/icons-material/ExpandMore";
 import { useHistory } from "react-router-dom";
 import { useState } from "react";
-import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import { RiAccountBoxFill,RiAccountPinCircleFill,RiDashboardFill ,RiNewspaperLine} from 'react-icons/ri';
-import { MdDashboardCustomize,MdSettingsApplications,MdAccountBalanceWallet,MdSwitchAccount,MdOutlineTask} from 'react-icons/md';
+import { MdDashboardCustomize,MdAccountBalanceWallet,MdSwitchAccount,MdOutlineTask} from 'react-icons/md';
 import {SiJquery} from 'react-icons/si';
-import {DiRequirejs} from 'react-icons/di';
+import {AiOutlineMenuFold} from 'react-icons/ai';
 import {VscTasklist,VscNotebook} from 'react-icons/vsc';
 import {CgNotes} from 'react-icons/cg';
 import {GrCertificate} from 'react-icons/gr';
@@ -22,7 +12,7 @@ export default function Sidebar() {
   const history = useHistory();
 
   const [openthree, setOpenthree] = useState(false);
-
+  const [show, setshow] = useState(true);
   const handleClickthree = () => {
     setOpenthree(!openthree);
   };
@@ -34,11 +24,13 @@ export default function Sidebar() {
        <div className="nav-item">
         <Link className="nav-link" to="/" style={{textDecoration:"none"}}>
          
-        <RiAccountBoxFill /> <span>  STUDENT</span>
+         <span>  STUDENT</span><AiOutlineMenuFold />
         </Link>
+        
       </div>
 
       <hr style={{color:"black"}} />
+    <div>
       <div className="nav-item">
         <Link className="nav-link" to="/class" style={{textDecoration:"none"}}>
          
@@ -121,7 +113,7 @@ export default function Sidebar() {
         <GrCertificate style={{color:"black"}} />  <span>CERTIFICATE</span>
         </Link>
       </div>
-      
+      </div> 
       <hr className="sidebar-divider" />
     </ul>
   );

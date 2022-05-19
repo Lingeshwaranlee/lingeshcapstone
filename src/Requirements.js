@@ -7,7 +7,7 @@ export function Requirements() {
       <h5 style={{ justifyContent: "center", textAlign: "center",padding:"2%"  }}>
       Content available after completing Placement preparation
       </h5>
-      <img style={{marginLeft:'27%'}} src='https://marvel-b1-cdn.bc0a.com/f00000000075552/www.perforce.com/sites/default/files/image/2020-08/image-blog-non-functional-requirements.jpg' alt='img'></img>
+      <img style={{marginLeft:'27%',width:"55%"}} src='https://marvel-b1-cdn.bc0a.com/f00000000075552/www.perforce.com/sites/default/files/image/2020-08/image-blog-non-functional-requirements.jpg' alt='img'></img>
     </div>
  )
 }

@@ -15,11 +15,11 @@ html {
   height:100%;
   object-fit: cover;
 }
-@media (min-width: 400px) {
-  .table{
-    width:100% !important;
-  }
+.nav-item a:hover {
+  background-color: rgb(1, 1, 1);
 }
+
+
 .img0 {
     
   width: 100%;
@@ -75,7 +75,7 @@ body {
 }
 
 .sidebar {
-  width: 6.5rem;
+  width: 6rem;
   min-height: 100vh;
 
 }
@@ -110,7 +110,7 @@ body {
   z-index: 1;
 }
 .sidebar .sidebar-brand .sidebar-brand-icon i {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 .sidebar .sidebar-brand .sidebar-brand-text {
   display: none;
@@ -150,7 +150,7 @@ body {
 }
 @media (min-width: 700px) {
   .sidebar {
-    width: 14rem !important;
+    width: 12rem !important;
   }
   .sidebar .nav-item .collapse {
     position: relative;
@@ -211,7 +211,7 @@ body {
   }
   .sidebar.toggled {
     overflow: visible;
-    width: 6.5rem !important;
+    width: 3.5rem !important;
   }
   .sidebar.toggled .nav-item .collapse {
     position: absolute;

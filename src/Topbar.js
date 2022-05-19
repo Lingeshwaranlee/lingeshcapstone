@@ -4,11 +4,10 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import { MdOutlineAccountCircle} from 'react-icons/md';
+import { useHistory } from 'react-router-dom';
+import { RiAccountBoxFill } from 'react-icons/ri';
 function Topbar() {
- 
+  const history =useHistory();
   return (
     
       
@@ -17,9 +16,11 @@ function Topbar() {
       <Toolbar>
        
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-         ZEN CLASS <MdOutlineAccountCircle />
+         ZEN CLASS <RiAccountBoxFill /> 
         </Typography>
-        <Button color="inherit">Login</Button>
+        <div className="nav-item">
+        <Button color="inherit" onClick={() => history.push("/login")}>Login</Button>
+        </div>
       </Toolbar>
     </AppBar>
   </Box>
