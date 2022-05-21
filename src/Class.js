@@ -126,6 +126,7 @@ const history =useHistory();
     }}
   >
 <h5 style={{color:'black'}}>ACTIVITIES</h5>
+<br></br>
 <h6>https://docs.google.com/document/d/1QznT1zM4mI6dG0TODx5Xjs1GquMoSHO3xZ1USDnVM-w/edit?usp=sharing</h6>
 <span><Button variant="contained" onClick={() => history.push("/task")} style={{backgroundColor:"",borderRadius:"7px"}}>TASK</Button></span>
 

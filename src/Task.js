@@ -69,10 +69,10 @@ function Zen({task,date,mark}){
   const history =useHistory();
   return(
     
-    <div>
+    <div className='zoom'>
  <Box
       sx={{
-        width: "90%",
+        width: "100%",
         height: "100%",
         backgroundColor: 'white',
         marginTop:'3%',

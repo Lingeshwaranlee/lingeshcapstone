@@ -91,7 +91,7 @@ export function Graph1() {
       <Tooltip />
       <Legend />
       <CartesianGrid strokeDasharray="3 3" />
-      <Bar dataKey="pv" fill="#8884d8" background={{ fill: "#eee" }} />
+      <Bar dataKey="pv" fill=" #4e73df" background={{ fill: "#eee" }} />
     </BarChart>
     </Box>
     </div>
@@ -128,7 +128,7 @@ export function Graph1() {
       <Tooltip />
       <Legend />
       <CartesianGrid strokeDasharray="3 3" />
-      <Bar dataKey="pv" fill="#8884d8" background={{ fill: "#eee" }} />
+      <Bar dataKey="pv" fill=" #4e73df" background={{ fill: "#eee" }} />
     </BarChart>
     </Box>
     </div>

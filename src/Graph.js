@@ -111,7 +111,7 @@ export function Graph() {
       <Line
         type="monotone"
         dataKey="pv"
-        stroke="#8884d8"
+        stroke=" #4e73df"
         activeDot={{ r: 8 }}
       />
       <Line type="monotone" dataKey="uv" stroke="#82ca9d" />

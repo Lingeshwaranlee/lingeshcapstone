@@ -1,9 +1,10 @@
 import IconButton from '@mui/material/IconButton';
-import Box from '@mui/material/Box';
+import Carousel  from 'react-bootstrap/carousel'
 import {DiJavascript,DiNodejs,DiCss3} from 'react-icons/di';
 import {FaReact} from 'react-icons/fa';
 import {SiMongodb,SiNetlify,SiPostman,SiVisualstudiocode,SiHeroku,SiBootstrap,SiAmazonaws} from 'react-icons/si';
 import {BsGithub} from 'react-icons/bs';
+import Box from '@mui/material/Box';
 export function Student() {
   return (
   <div>
@@ -23,10 +24,7 @@ export function Student() {
     
     </div>
     
-  <img
-    className="img0"
-    src="https://miro.medium.com/max/1400/1*HdBFQ9EO_Vc4-lHKShFbAQ.png"
-  ></img>
+  <Caros/>
   
    <h2 style={{justifyContent: "center",textAlign: "center",color:" #4e73df"}}>Tools To Use</h2>
     <div style={{textAlign:"center",justifyContent:"center",color:'black',width:"100%"}}>
@@ -40,5 +38,57 @@ export function Student() {
     
     </div>
 </div>
+  )
+}
+
+function Caros(){
+  return(
+    <div>
+      <Box
+      sx={{
+        width: "80%",
+        height: "65vh",
+        backgroundColor: 'white',
+        marginLeft:"10%",
+        borderRadius:"12px",
+        overflow: "hidden",
+        boxShadow: "rgb(0 0 0 / 24%) 1px 2px 13px",
+        position:"static",
+        
+      }}
+    > 
+       <Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100 "
+      src="https://miro.medium.com/max/1400/1*HdBFQ9EO_Vc4-lHKShFbAQ.png"
+      alt="First slide"
+      style={{width:"60%",objectFit:'cover'}}
+    />
+  
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="http://thecareertrends.com/wp-content/uploads/2020/10/untitlsssssed.png"
+      alt="Second slide"
+      style={{width:"60%",objectFit:'cover'}}
+    />
+
+  
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="https://techspawn.com/wp-content/uploads/2014/12/techspawn-designer.jpg"
+      alt="Third slide"
+      style={{width:"60%",objectFit:'cover'}}
+    />
+
+   
+  </Carousel.Item>
+</Carousel>
+  </Box>
+    </div>
   )
 }
