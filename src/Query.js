@@ -6,7 +6,7 @@ import {useEffect, useState } from "react";
 export function Query() {
   const [query,setquery]=useState([]);
   useEffect(()=>{
-    fetch("https://620c529fb5736325938b91f9.mockapi.io/query")
+    fetch("https://capstoneproject1lingesh.herokuapp.com/query")
     .then((data)=>data.json())
     .then((mvs)=>setquery(mvs));
   },[])

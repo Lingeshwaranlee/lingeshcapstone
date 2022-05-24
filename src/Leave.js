@@ -5,7 +5,7 @@ import { MdOutlineTask} from 'react-icons/md';
 export function Leave() {
   const [leave,setleave]=useState([]);
   useEffect(()=>{
-    fetch("https://620c529fb5736325938b91f9.mockapi.io/hack")
+    fetch("https://capstoneproject1lingesh.herokuapp.com/leave")
     .then((data)=>data.json())
     .then((mvs)=>setleave(mvs));
   },[])
