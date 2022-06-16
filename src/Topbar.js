@@ -6,6 +6,9 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { useHistory } from 'react-router-dom';
 import { RiAccountBoxFill } from 'react-icons/ri';
+
+//common topbar component for all the page
+
 function Topbar() {
   const history =useHistory();
   return (

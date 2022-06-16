@@ -3,6 +3,8 @@ import TextField from '@mui/material/TextField';
 import { useState } from "react";
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
+
+//Querycontent page component
 export function Querycontent() {
   const history = useHistory();
   const[roll,setroll]=useState("");

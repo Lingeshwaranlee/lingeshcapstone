@@ -29,6 +29,8 @@ import { Sign } from "./Sign";
 
 function App() {
   return (
+    //Defining Routes for all the components and pages
+
     <div className="App wrapper">
       <Sidebar />
       <div className="content-wrapper d-flex flex-column">

@@ -2,6 +2,8 @@ import Box from "@mui/material/Box";
 import { RiDashboardFill } from "react-icons/ri";
 import { Graph } from "./Graph";
 import { Graph1 } from "./Graph1";
+
+//dashboard page component
 export function Dashboard() {
   return (
     <div style={{ width: "100%" }}>

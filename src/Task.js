@@ -3,6 +3,7 @@ import Button from '@mui/material/Button';
 import { MdDashboardCustomize} from 'react-icons/md';
 import { useHistory } from 'react-router-dom';
 
+//Task page component
 export function Task() {
   const ken=[
     {

@@ -1,4 +1,6 @@
 import {GrCertificate} from 'react-icons/gr';
+
+//Certificate page component
 export function Certificate() {
   return (
     <div>

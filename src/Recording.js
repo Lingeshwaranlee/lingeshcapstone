@@ -2,6 +2,9 @@ import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import { useHistory } from 'react-router-dom';
 import { GrFormClose} from 'react-icons/gr';
+
+//Recording page component
+
 export function Recording() {
   const history =useHistory();
   return (

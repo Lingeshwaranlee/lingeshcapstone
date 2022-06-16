@@ -1,4 +1,5 @@
 import {VscNotebook} from 'react-icons/vsc';
+//Requirement page component
 export function Requirements() {
   return (
   <div>

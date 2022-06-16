@@ -8,6 +8,8 @@ import {AiOutlineMenuFold} from 'react-icons/ai';
 import {VscTasklist,VscNotebook} from 'react-icons/vsc';
 import {CgNotes} from 'react-icons/cg';
 import {GrCertificate} from 'react-icons/gr';
+
+//Sidebar page component
 export default function Sidebar() {
   const history = useHistory();
 

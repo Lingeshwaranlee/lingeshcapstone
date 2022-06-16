@@ -1,4 +1,5 @@
 import {RiNewspaperLine} from 'react-icons/ri';
+//Application page component
 export function Applications() {
   return(
      <div>

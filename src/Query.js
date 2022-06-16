@@ -3,6 +3,8 @@ import { useHistory } from 'react-router-dom';
 import {SiJquery} from 'react-icons/si';
 import { Description } from '@mui/icons-material';
 import {useEffect, useState } from "react";
+
+//Query page component
 export function Query() {
   const [query,setquery]=useState([]);
   useEffect(()=>{

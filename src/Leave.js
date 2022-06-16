@@ -2,6 +2,8 @@ import {useEffect, useState } from "react";
 import Button from '@mui/material/Button';
 import { useHistory } from 'react-router-dom';
 import { MdOutlineTask} from 'react-icons/md';
+
+//leave page component
 export function Leave() {
   const [leave,setleave]=useState([]);
   useEffect(()=>{

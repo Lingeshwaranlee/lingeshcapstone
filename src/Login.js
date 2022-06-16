@@ -3,6 +3,8 @@ import './Login.css'
 import Button from '@mui/material/Button';
 import { useState } from "react";
 import { useHistory } from 'react-router-dom';
+
+//Login page component
 export function Login( {Login,error}) {
  const [details,setDetails]=useState({name:'',email:"",password:""})
  const submitHandler= e =>{

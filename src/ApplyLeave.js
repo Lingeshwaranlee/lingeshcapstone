@@ -4,7 +4,10 @@ import { useState } from "react";
 import Button from '@mui/material/Button';
 import { MdOutlineTask} from 'react-icons/md';
 import Box from '@mui/material/Box';
+
+//Applyleave page component
 export function ApplyLeave() {
+  //Assigning inbuild functions to variables
   const history = useHistory();
   const[roll,setroll]=useState("");
   const[from,setfrom]=useState("");

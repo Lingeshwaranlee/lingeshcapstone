@@ -5,6 +5,8 @@ import {FaReact} from 'react-icons/fa';
 import {SiMongodb,SiNetlify,SiPostman,SiVisualstudiocode,SiHeroku,SiBootstrap,SiAmazonaws} from 'react-icons/si';
 import {BsGithub} from 'react-icons/bs';
 import Box from '@mui/material/Box';
+
+//student page component
 export function Student() {
   return (
   <div>

@@ -2,6 +2,8 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { useHistory } from 'react-router-dom';
 import { MdSwitchAccount} from 'react-icons/md';
+
+//capstone page component
 export function Capstone() {
   const history =useHistory(); 
   return (

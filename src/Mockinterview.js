@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import { useHistory } from 'react-router-dom';
 import { CgNotes} from 'react-icons/cg';
 
-
+//Mockinterview page component
 export function Mockinterview() {
   let { userData, setUserData } = useContext(UserContext);
   const handledelete = (index) => {

@@ -2,6 +2,8 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import { useHistory } from 'react-router-dom';
+
+//capstonecontent  page component
 export function Capstonecontent() {
   const history =useHistory();
   return( 

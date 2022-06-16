@@ -1,4 +1,6 @@
 import {VscTasklist,VscNotebook} from 'react-icons/vsc';
+
+//Interview page component
 export function Interview() {
   return (
     <div>

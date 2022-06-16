@@ -4,6 +4,8 @@ import HorizontalTimeline from "react-horizontal-timeline";
 import Button from '@mui/material/Button';
 import { RiAccountPinCircleFill} from 'react-icons/ri';
 import { useHistory } from 'react-router-dom';
+
+//class page component
 export function Class() {
   const [value, setValue] = useState(0);
   const [previous, setPrevious] = useState(0);
